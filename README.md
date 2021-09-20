@@ -1,4 +1,4 @@
-# Git & Github 
+![Git & Github](src/img/git_github.png)
 
 
 ### Configuring user information used across all local repositories.
