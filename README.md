@@ -1,5 +1,8 @@
-# Git & Github 
+
+![Git & Github](src/img/git_github.png)
+
 By  [![Github Badge](https://img.shields.io/badge/Shrimad-Bhagwat-grey?style=flat&logo=github&logoColor=white&link=https://github.com/Shrimad-Bhagwat/)](https://www.github.com/Shrimad-Bhagwat/)
+
 
 
 ### Configuring user information used across all local repositories.
