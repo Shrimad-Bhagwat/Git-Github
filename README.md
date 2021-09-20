@@ -11,7 +11,7 @@ To set Email
 ```
 git config --global user.email “[email]”
 ```
-
+---
 ### Configuring user information, initializing and cloning repositories
 Initialize an existing directory as a Git repository
 ```
@@ -26,13 +26,15 @@ example,
 ```
 git clone https://github.com/Shrimad-Bhagwat/Git-Github.git
 ```
-
+---
 ### STAGE & SNAPSHOT
 Show modified files in working directory, staged for your next commit
 ```
 git status
 ```
 ![git status](src/img/status.png)
+
+---
 
 Add a file as it looks now to your next commit (stage)
 ```
@@ -63,6 +65,8 @@ Commit your staged content as a new commit snapshot
 git commit -m "[descriptive message]"
 ```
 ![git commit](src/img/commit.png)
+
+---
 
 ### BRANCH & MERGE
 List your branches. 
@@ -111,3 +115,5 @@ Transmit local branch commits to the remote repository branch
 git push [alias] [branch]
 ```
 ![git push](src/img/push.png)
+
+---
