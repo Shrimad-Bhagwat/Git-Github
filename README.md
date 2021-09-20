@@ -29,26 +29,34 @@ Show modified files in working directory, staged for your next commit
 ```
 git status
 ```
+![git status](src/img/status.png)
+
 Add a file as it looks now to your next commit (stage)
 ```
 git add [file]
 ```
+![git add](src/img/add.png)
+
 Unstage a file while retaining the changes in working directory
 ```
 git reset [file]
 ```
+![git reset](src/img/reset.png)
 Difference of what is changed but not staged
 ```
 git diff
 ```
+![git diff](src/img/diff.png)
 Difference of what is staged but not yet commited
 ```
 git diff --staged
 ```
+![git diff-staged](src/img/diff-staged.png)
 Commit your staged content as a new commit snapshot
 ```
 git commit -m "[descriptive message]"
 ```
+![git commit](src/img/commit.png)
 
 ### BRANCH & MERGE
 List your branches. 
@@ -56,26 +64,33 @@ A * will appear next to the currently active branch
 ```
 git branch
 ```
+![git branch](src/img/branch.png)
 Create a new branch at current commit
 ```
 git branch [branch-name]
 ```
+![git branch Git](src/img/create-branch.png)
+
 Switch to another branch
 ```
-git checkout
+git checkout [branch-name]
 ```
+![git checkout](src/img/checkout.png)
 Merge the specified branch into current one
 ```
 git merge [branch]
 ```
+![git merge ](src/img/merge.png)
 Show all commits in the current branch's history
 ```
 git log
 ```
+![git log](src/img/log.png)
 Add a git URL as an alias
 ```
 git remote add [alias] [url]
 ```
+![remote add](src/img/remote-add-origin.png)
 Merge a remote branch into your current branch to bring it up to date
 ```
 git merge [alias]/[branch]
